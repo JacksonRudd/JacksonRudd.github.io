@@ -128,8 +128,7 @@ where there exists an $$i$$ where $$T_i \neq X_i$$.
 
 ## Trustworthy Alerts
 
-Given a data quality system, define a *trustworthy alert* to be a function of the $X_i$s that fires only for data quality issues. 
-
+Given a data quality system, define a *trustworthy alert* to be a function of the $X_i$s that fires only for data quality issues. Again we consider only plausible states.  
 
 
 *Definition:*  **Trustworthy Alert**
@@ -140,10 +139,12 @@ $$a :(X_1... X_N) \rightarrow \{True, False\}$$ where $$ (a(X)==T) \implies (X_1
 
 
 By feeding our data $$X_i$$ into our real world constraints $$g_k$$ we can detect data quality issues. 
+ 
+*Proposition:* Define $a(X_1... X_n) = \text{not } g(X_1... X_n)$ for some constraint $g$, this is an alert.
 
-In mathematical terms: 
+$$a((X_1...X_n)= g(X_1...X_n) \neq T \implies g(X_1...X_N) \neq g(T_1...T_N) \implies  (X_1...X_N) \neq (T_1...T_N) \implies $$ data quality issue. 
 
-$$g(X_1...X_n) \neq T \implies g(X_1...X_N) \neq g(T_1...T_N) \implies  (X_1...X_N) \neq (T_1...T_N) \implies $$ data quality issue. 
+...
 
 Also, it is clear that if $$a$$ is an alert and $$b$$ is an alert than $$(a \text{ or } b )$$ is also an alert. 
 
