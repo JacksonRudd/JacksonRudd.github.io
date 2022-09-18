@@ -194,7 +194,7 @@ $$g_1$$| $$T_1=T_2$$
 
 Therefore 
 
-$$N=2$$,
+$$N=2$$
 
 $$P = \{(T_1 = True, T_2=True), (T_1 = False, T_2=False)\} $$
 
