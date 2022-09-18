@@ -75,7 +75,7 @@ $$X_1$$| The *observed* total cars entering the tunnel over the day.
 $$T_2$$| The *true* total cars leaving the tunnel over the day.
 $$X_2$$| The *observed* total cars leaving the tunnel over the day.
 
-To complete our setup, we also add real world assumptions $$g_1... g_M$$ where $$g_k(T_1..T_N)=True$$ for all $$k \in {1..M}$$. We can never observe $$T_i$$ that contradict our real world assumptions. 
+To complete our setup, we also add real world assumptions $$g_1... g_M$$ where we only consider $T_1 .. T_N$ where $$g_k(T_1..T_N)=True$$ for all $$k \in {1..M}$$. We can never observe $$T_i$$ that contradict our real world assumptions. 
 
 For example, in our traffic problem we have the *conservation of cars constraint* $$g_1(T_1,T_2) = (T_1 \geq T_2) $$, since we know that cars can't exit the tunnel without entering it first.
 
