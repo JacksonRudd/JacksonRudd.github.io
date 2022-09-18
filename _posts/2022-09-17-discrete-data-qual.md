@@ -88,14 +88,14 @@ $${X_1... X_N} : X_i \in \mathbb{N}$$
 
 $$g_1... g_M \text{ where } g_k : (T_1...T_N) \rightarrow \{T,F\}$$  
 
-$${T_1... T_N}: T_i \in \mathbb{N} \text{ and }  g_k(T_1...T_k)=True$$
+$${T_1... T_N}: T_i \in \mathbb{N} $$
 
 
 ...
 
 *Definition:* **Plausible State**
 
-We call all states of a system where $$T_1... T_N$$ satisfies the constraints, *plausible*. We only consider plausible states when discussing systems. 
+We call all states of a system where $$T_1... T_N$$ satisfies the constraints, *plausible*. We only consider plausible states when discussing systems, sometimes without making this explicit. 
 
 ...
 
@@ -128,9 +128,9 @@ where there exists an $$i$$ where $$T_i \neq X_i$$.
 
 ## Trustworthy Alerts
 
-Given a data quality system, define a *trustworthy alert* to be a function of the data that fires only for data quality issues. 
+Given a data quality system, define a *trustworthy alert* to be a function of the $X_i$s that fires only for data quality issues. 
 
-In other words 
+
 
 *Definition:*  **Trustworthy Alert**
 
