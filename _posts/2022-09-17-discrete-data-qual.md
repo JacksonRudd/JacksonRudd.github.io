@@ -81,21 +81,21 @@ For example, in our traffic problem we have the *conservation of cars constraint
 
 In summary, a discrete data quality system consists of the following: 
 
-*Definition:* **Discrete Data Quality System**
+*Definition:* **Plausible System**
 
 
 $${X_1... X_N} : X_i \in \mathbb{N}$$ 
 
 $$g_1... g_M \text{ where } g_k : (T_1...T_N) \rightarrow \{T,F\}$$  
 
-$${T_1... T_N}: T_i \in \mathbb{N} \text{ and }  g_k(T_1..T_k)=True$$
+$${T_1... T_N}: T_i \in \mathbb{N} \text{ and }  g_k(T_1...T_k)=True$$
 
 
 ...
 
 *Definition:* **Plausible State**
 
-We call all states of a system where $$T_1... T_N$$ satisfies the constraints, *plausible*. 
+We call all states of a system where $$T_1... T_N$$ satisfies the constraints, *plausible*. We only consider plausible states when discussing systems. 
 
 ...
 
