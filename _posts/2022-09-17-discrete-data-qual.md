@@ -163,7 +163,7 @@ In a data quality system let $$P$$ denote the set of $$(T_1... T_N)$$ that are p
 
 Let's take a binary system (this can be modeled as constraints). Then the $$X_1... X_N$$ can be in $$2^N$$ states, while the $$T_1... T_N$$ can be in $$\lvert P \rvert$$ many states. Therefore the system as a whole can be in $$\lvert P \rvert  2^N$$ states. 
 
-There will only every be $$|P|$$ many good data quality states. Therefore there is $$\lvert P \rvert  2^N - \lvert P \rvert$$ bad data quality states. 
+There will only every be $$\lvert P \rvert$$ many good data quality states. Therefore there is $$\lvert P \rvert  2^N - \lvert P \rvert$$ bad data quality states. 
 
 Finally since the maximal alert only fires for $$(X_1.. X_n)$$ that violates the constraints, we have $$ \lvert P \rvert(2^N- \lvert P \rvert)$$ states where the alarm fires. 
 
