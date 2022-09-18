@@ -134,17 +134,18 @@ In other words
 
 *Definition:*  **Trustworthy Alert**
 
-$$a :(X_1... X_N) \rightarrow \{True, False\}$$ where $$ a(X) == True \implies (X_1.. X_N, T_1.. T_N)$$ is a data quality issue. 
+$$a :(X_1... X_N) \rightarrow \{True, False\}$$ where $$ a(X) \implies (X_1.. X_N, T_1.. T_N)$$ is a data quality issue. 
 
 ...
 
-by feeding our data $$X_i$$ into our real world constraints $$g_k$$ we can detect data quality issues. 
+
+By feeding our data $$X_i$$ into our real world constraints $$g_k$$ we can detect data quality issues. 
 
 In mathematical terms: 
 
 $$g(X_1...X_n) \neq T \implies g(X_1...X_N) \neq g(T_1...T_N) \implies  (X_1...X_N) \neq (T_1...T_N) \implies $$ data quality issue. 
 
-Also, it is clear that if $$a$$ is an alert and $$b$$ is an alert than $$(a \text{ or } b )$$ . 
+Also, it is clear that if $$a$$ is an alert and $$b$$ is an alert than $$(a \text{ or } b )$$ is also an alert. 
 
 This leads us to define a *maximal alert* as : $$MA(X_1.. X_N) = (g_1(X_1...X_N) = F) \text{ or } (g_2(X_1...X_N) = F) ... \text{ or } (g_k(X_1...X_N) = F)$$. 
 
