@@ -1,6 +1,6 @@
 # Simple Theory of Data Quality Alerts: Discrete Systems
 
-Anyone who works in data will eventually develop trust issues. Data is often different from the reality it models and a result of measurement errors and it can be difficult to determine what is actually true. 
+Anyone who works in data will eventually develop trust issues. Data is often different from the reality it models and a result of measurement errors. It can be difficult to determine what is actually true. 
 
 If *data quality* is the delta between data and reality, poor data quality is the organizational equivalent of drunk goggles. 
 
