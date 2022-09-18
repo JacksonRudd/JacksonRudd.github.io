@@ -82,14 +82,14 @@ For example, in our traffic problem we have the *conservation of cars constraint
 In summary, a discrete data quality system consists of the following: 
 
 *Definition:* **Discrete Data Quality System**
- 
-A data quality system is the of states of discrete variables
 
-$${T_1... T_N}: T_i \in \N$$ 
 
-$${X_1... X_N} : X_i \in \N$$ 
+$${X_1... X_N} : X_i \in \mathbb{N}$$ 
 
-$$g_1... g_M$$ where $$g_k : (T_1...T_N) \rightarrow \{T,F\}$$  
+$$g_1... g_M \text{ where } g_k : (T_1...T_N) \rightarrow \{T,F\}$$  
+
+$${T_1... T_N}: T_i \in \mathbb{N} \text{ and }  g_k(T_1..T_k)=True$$
+
 
 ...
 
@@ -144,9 +144,9 @@ In mathematical terms:
 
 $$g(X_1...X_n) \neq T \implies g(X_1...X_N) \neq g(T_1...T_N) \implies  (X_1...X_N) \neq (T_1...T_N) \implies $$ data quality issue. 
 
-Also, it is clear that if $$a$$ is an alert and $$b$$ is an alert than $$(a \mid b )$$ is an alert, where $$\mid $$ is 'or'. 
+Also, it is clear that if $$a$$ is an alert and $$b$$ is an alert than $$(a \text{ or } b )$$ . 
 
-This leads us to define a *maximal alert* as : $$MA(X_1.. X_N) = (g_1(X_1...X_N) = F) | (g_2(X_1...X_N) = F) ... | (g_k(X_1...X_N) = F)$$. 
+This leads us to define a *maximal alert* as : $$MA(X_1.. X_N) = (g_1(X_1...X_N) = F) \text{ or } (g_2(X_1...X_N) = F) ... \text{ or } (g_k(X_1...X_N) = F)$$. 
 
 *Proposition:* the maximal alert is the best alert, in that any other trustworthy alert only fires when the maximal alert fires. 
 
