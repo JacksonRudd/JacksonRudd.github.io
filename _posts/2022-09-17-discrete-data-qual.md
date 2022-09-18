@@ -134,7 +134,7 @@ In other words
 
 *Definition:*  **Trustworthy Alert**
 
-$$a :(X_1... X_N) \rightarrow \{True, False\}$$ where $$ a(X) \implies (X_1.. X_N, T_1.. T_N)$$ is a data quality issue. 
+$$a :(X_1... X_N) \rightarrow \{True, False\}$$ where $$ (a(X)==T) \implies (X_1.. X_N, T_1.. T_N)$$ is a data quality issue. 
 
 ...
 
