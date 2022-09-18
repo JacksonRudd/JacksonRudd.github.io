@@ -211,7 +211,11 @@ We looked at discrete systems and found that the *only* way to detect data quali
 
 This theory is simple and intuitive. It suggests a business process where real world constraints are systematically gathered in an organization and turned into a *maximal alert*. 
 
-Thanks for reading, and please reach out with any suggestions or ideas. 
+In a future post, we can instead look at continuous systems where the theory remains simple, but becomes more about degrees of freedom and geometry. 
+
+Thanks for reading, and please reach out with comments or suggestions. 
+
+
 
 
 
