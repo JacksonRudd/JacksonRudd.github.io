@@ -128,7 +128,7 @@ where there exists an $$i$$ where $$T_i \neq X_i$$.
 
 ## Trustworthy Alerts
 
-Given a data quality system, define a *trustworthy alert* to be a function of the $X_i$s that fires only for data quality issues. Again we consider only plausible states.  
+Given a data quality system, define a *trustworthy alert* to be a function of the $$X_1... X_N$$ that fires only for data quality issues. Again we consider only plausible states.  
 
 
 *Definition:*  **Trustworthy Alert**
