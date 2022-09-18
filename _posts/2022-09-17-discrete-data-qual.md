@@ -107,7 +107,7 @@ For example, in our traffic system, $$T_1=5$$ and $$T_2 = 4$$ is plausible, whil
 |Var| Definition|
 |-|-|
 $$T_1$$| The *true* state of the lawn.
-$$X_1$$| The eldest's
+$$X_1$$| The eldest's answer about the state of the lawn.
 $$T_2$$| Another 'dummy' variable representing the true state of the lawn.
 $$X_2$$| The youngest's answer about the state of the lawn.
 $$g_1$$| $$T_1=T_2$$
@@ -185,7 +185,7 @@ We recall:
 |Var| Definition|
 |-|-|
 $$T_1$$| The *true* state of the lawn.
-$$X_1$$| The eldest's
+$$X_1$$| The eldest's answer about the state of the lawn.
 $$T_2$$| Another 'dummy' variable representing the true state of the lawn.
 $$X_2$$| The youngest's answer about the state of the lawn.
 $$g_1$$| $$T_1=T_2$$
