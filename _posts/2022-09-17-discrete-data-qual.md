@@ -83,7 +83,7 @@ For example, in our traffic problem we have the *conservation of cars constraint
 
 In summary, a discrete data quality system consists of the following: 
 
-*Definition:* **Plausible System**
+*Definition:* **Data Quality System**
 
 
 $${X_1... X_N} : X_i \in \mathbb{N}$$ 
