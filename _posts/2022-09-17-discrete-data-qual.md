@@ -142,7 +142,7 @@ $$a :(X_1... X_N) \rightarrow \{True, False\}$$ where $$ (a(X)==T) \implies (X_1
 
 By feeding our data $$X_i$$ into our real world constraints $$g_k$$ we can detect data quality issues. 
  
-*Proposition:* Define $a(X_1... X_n) = \text{not } g(X_1... X_n)$ for some constraint $$g$$, this is a trustworthy alert.
+*Proposition:* Define $$a(X_1... X_n) = \text{not } g(X_1... X_n)$$ for some constraint $$g$$, this is a trustworthy alert.
 
 $$a((X_1...X_n)= g(X_1...X_n) \neq T \implies g(X_1...X_N) \neq g(T_1...T_N) \implies  (X_1...X_N) \neq (T_1...T_N) \implies $$ data quality issue. 
 
