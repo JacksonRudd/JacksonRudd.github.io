@@ -135,7 +135,7 @@ Given a data quality system, define a *trustworthy alert* to be a function of th
 
 *Definition:*  **Trustworthy Alert**
 
-$$a :(X_1... X_N) \rightarrow \{True, False\}$$ where $$ (a(X)==T) \implies (X_1.. X_N, T_1.. T_N)$$ is a data quality issue. 
+$$a :(X_1... X_N) \rightarrow \{True, False\}$$ where $$ (a(X)==True) \implies ( T_1.. T_N, X_1.. X_N)$$ is a data quality issue. 
 
 ...
 
@@ -144,13 +144,13 @@ By feeding our data $$X_i$$ into our real world constraints $$g_k$$ we can detec
  
 *Proposition:* Define $$a(X_1... X_n) = \text{not } g(X_1... X_n)$$ for some constraint $$g$$, this is a trustworthy alert.
 
-$$a((X_1...X_n)= g(X_1...X_n) \neq T \implies g(X_1...X_N) \neq g(T_1...T_N) \implies  (X_1...X_N) \neq (T_1...T_N) \implies $$ data quality issue. 
+proof $$a((X_1...X_n)= g(X_1...X_n) \neq True \implies g(X_1...X_N) \neq g(T_1...T_N) \implies  (X_1...X_N) \neq (T_1...T_N) \implies $$ data quality issue. 
 
 ...
 
 Also, it is clear that if $$a$$ is an trustworthy alert and $$b$$ is an trustworthy alert than $$(a \text{ or } b )$$ is also a trustworthy alert. 
 
-This leads us to define a *maximal alert* as : $$MA(X_1.. X_N) = (g_1(X_1...X_N) = F) \text{ or } (g_2(X_1...X_N) = F) ... \text{ or } (g_k(X_1...X_N) = F)$$. 
+This leads us to define a *maximal alert* as : $$MA(X_1.. X_N) = (g_1(X_1...X_N) = False) \text{ or } (g_2(X_1...X_N) = False) ... \text{ or } (g_k(X_1...X_N) = False)$$. 
 
 *Proposition:* the maximal alert is the best alert, in that any other trustworthy alert only fires when the maximal alert fires. 
 
@@ -179,6 +179,14 @@ Data Quality Issues = $$\lvert P \rvert  2^N - \lvert P \rvert$$
 Detectable Issues = $$ \lvert P \rvert(2^N- \lvert P \rvert)$$
 
 Fraction of Quality Issues Detected = $$\frac{\lvert P \rvert(2^N- \lvert P \rvert)}{ \lvert P \rvert  2^N - \lvert P \rvert} = \frac{2^N- \lvert P \rvert}{  2^N - 1} $$
+
+We sum up the previous conversation with a proposition: 
+
+*Proposition:* **Quality Coverage Equation**
+
+Fraction of Quality Issues Detected = $$ \frac{2^N- \lvert P \rvert}{  2^N - 1} $$
+
+...
 
 This equation easily generalizes to any discrete system, by simply replacing $$2^N$$ with the cardinality of the state space $$X_1...X_N$$. 
 
@@ -221,7 +229,7 @@ As we gather more expectations about the real world, we can add constraints, whi
 
 ## Summary
 
-We looked at discrete systems and found that the *only* way to detect data quality was by feeding our real world assumptions onto the data. A data quality alert is best when it simply takes all of the real world constraints in our system, and checks to see if any has been violated. We derived a simple equation for data quality coverage in discrete systems so that we know longer have to count truth tables. In accordance with our intuition, as the number of plausible states decreases, the coverage of data quality increases. 
+We looked at discrete systems and found that the *only* way to detect data quality was by feeding our real world assumptions onto the data. A data quality alert is best when it simply takes all of the real world constraints in our system, and checks to see if any has been violated. We derived a surprisingly simple equation for data quality coverage in discrete systems so that we know longer have to count truth tables. In accordance with our intuition, as the number of plausible states decreases, the coverage of data quality increases. 
 
 This theory is simple and intuitive. It suggests a business process where real world constraints are systematically gathered in an organization and turned into a *maximal alert*. 
 
