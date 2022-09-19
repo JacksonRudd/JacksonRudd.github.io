@@ -2,7 +2,7 @@
 
 Anyone who works in data will eventually develop trust issues. Data is often different from the reality it models and a result of measurement errors. It can be difficult to determine what is actually true. 
 
-If *data quality* is the delta between data and reality, poor data quality is the organizational equivalent of drunk goggles. 
+If data are the eyes of an organization then poor data quality is the organizational equivalent of drunk goggles. 
 
 But how can an organization discover if data is high quality or not? In this post I seek to answer this question for discrete data systems. The theory is simple and intuitive, and in my opinion adds some rigour to instincts that all data professionals develop eventually. The ideas from these discrete systems will give good insight into the continuos theory of data quality (which will be covered in a future post). 
 
