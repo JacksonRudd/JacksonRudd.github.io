@@ -180,7 +180,7 @@ Detectable Issues = $$ \lvert P \rvert(2^N- \lvert P \rvert)$$
 
 Fraction of Quality Issues Detected = $$\frac{\lvert P \rvert(2^N- \lvert P \rvert)}{ \lvert P \rvert  2^N - \lvert P \rvert} = \frac{2^N- \lvert P \rvert}{  2^N - 1} $$
 
-This equation easily generalizes to n-ary discrete systems. 
+This equation easily generalizes to any discrete system, by simply replacing $$2^N$$ with the cardinality of the state space $$X_1...X_N$$. 
 
 Let's try this equation on our lawn system with the dummy variables. 
 
@@ -210,11 +210,13 @@ Fraction of Quality Issues Detected = $$\frac{2^N- \lvert P \rvert}{  2^N - 1} =
 
 Looking at the coverage equation  $$\frac{2^N- \lvert P \rvert}{  2^N - 1}$$ we see that we get 100% coverage only in the case where  $$\lvert P \rvert = 1$$, which is a trivial case. In the case that $$\lvert P \rvert = 1$$, there was no reason to gather any data in the first place, since $$T_1.. T_n$$ is fully determined by the constraints. Therefore we can say the following: 
 
-*In non-trivial data systems there will always be quality issues that are undetectable.*
+*In non-trivial discrete data systems there will always be quality issues that are undetectable.*
+
+Sadly, this also carries over to the continuos case, which we will cover in the future. 
+
 
 As we gather more expectations about the real world, we can add constraints, which will lower $$\lvert P \rvert$$, and raise the data coverage. 
 
-Sadly, this also carries over to the continuos case, which we will cover in the future. 
 
 
 ## Summary
