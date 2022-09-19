@@ -178,7 +178,7 @@ Detectable Issues = $$ \lvert P \rvert(2^N- \lvert P \rvert)$$
 
 Fraction of Quality Issues Detected = $$\frac{\lvert P \rvert(2^N- \lvert P \rvert)}{ \lvert P \rvert  2^N - \lvert P \rvert} = \frac{2^N- \lvert P \rvert}{  2^N - 1} $$
 
-This validates our assumptions that the smaller the plausible states, the more data issues we can catch. 
+This equation easily generalizes to n-ary discrete systems. 
 
 Let's try this equation on our lawn system with the dummy variables. 
 
@@ -204,8 +204,16 @@ $$2^N = 4$$
 
 Fraction of Quality Issues Detected = $$\frac{2^N- \lvert P \rvert}{  2^N - 1} = \frac{2}{3} $$, in accordance with what we observed above. 
 
+## Data Issues are Detectable, Data Correctness is Not
 
-# Summary
+Looking at the coverage equation  $$\frac{2^N- \lvert P \rvert}{  2^N - 1}$$ we see that we get 100% coverage only in the case where  $$\lvert P \rvert = 1$$. Of In the case that $$\lvert P \rvert = 1$$, there was no reason to gather any data in the first place, since $T_1.. T_n$ is fully determined by the constraints. Therefore we can say the following: 
+
+*In non-trivial data systems there will always be quality issues that are undetectable.*
+
+Sadly, this also carries over to the continuos case, which we will cover in the future. 
+
+
+## Summary
 
 We looked at discrete systems and found that the *only* way to detect data quality was by feeding our real world assumptions onto the data. A data quality alert is best when it simply takes all of the real world constraints in our system, and checks to see if any has been violated. We derived a simple equation for data quality coverage in discrete systems so that we know longer have to count truth tables. In accordance with our intuition, as the number of plausible states decreases, the coverage of data quality increases. 
 
