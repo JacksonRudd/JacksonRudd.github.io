@@ -11,23 +11,25 @@ But how can an organization discover if data is high quality or not? In this pos
 ## Lawn Mowing Example
 Let's start with an example of a data acquisition system that is prone to quality issues.
 
-You have two children who have housework to do while your out of town. You call and ask the oldest *'Has the lawn been mowed?'*. Lets model this simple data system:
+You have two children who have housework to do while you're out of town. You call and ask the oldest *'Has the lawn been mowed?'*. Lets model this simple data system:
 
 |Lawn Mowed|Eldest's Answer|
 |-|-|
-|T|T|
-|T|F|
-|F|T|
-|F|F|
+|True|True|
+|True|False|
+|False|True|
+|False|False|
+
+For example the first row describes where the lawn was mowed, and you got an honest answer. 
 
 Let's append to this table the data quality states
 
 |Lawn Mowed|Eldest's Answer|Data Quality|
 |-|-|-|
-|T|T|Good|
-|T|F|Bad|
-|F|T|Bad|
-|F|F|Good|
+|True|True|Good|
+|True|False|Bad|
+|False|True|Bad|
+|False|False|Good|
 
 This simple system can be in four states, of which two are bad data quality. We cannot detect any of these data quality issues without changing the setup.
 
@@ -37,28 +39,28 @@ Now let us also ask the youngest if the lawn has been mowed:
 
 |Lawn Mowed|Eldest's Answer|Youngest's Answer| Data Quality|
 |-|-|-|-|
-|T|T|T|Good|
-|T|T|F|Bad|
-|T|F|T|Bad|
-|T|F|F|Bad|
-|F|T|T|Bad|
-|F|T|F|Bad|
-|F|F|T|Bad|
-|F|F|F|Good|
+|True|True|True|Good|
+|True|True|False|Bad|
+|True|False|True|Bad|
+|True|False|False|Bad|
+|False|True|True|Bad|
+|False|True|False|Bad|
+|False|False|True|Bad|
+|False|False|False|Good|
 
 We will append to this table the *detectable* data quality issues. We will know something is wrong if the children don't agree. 
 
 
 |Lawn Mowed|Eldest's Answer|Youngest's Answer| Data Quality| Detectable Issue|
 |-|-|-|-|- |
-|T|T|T|Good|No|
-|T|T|F|Bad|Yes|
-|T|F|T|Bad|Yes|
-|T|F|F|Bad|No|
-|F|T|T|Bad|No|
-|F|T|F|Bad|Yes|
-|F|F|T|Bad|Yes|
-|F|F|F|Good|No|
+|True|True|True|Good|No|
+|True|True|False|Bad|Yes|
+|True|False|True|Bad|Yes|
+|True|False|False|Bad|No|
+|False|True|True|Bad|No|
+|False|True|False|Bad|Yes|
+|False|False|True|Bad|Yes|
+|False|False|False|Good|No|
 
 We now have 6 states with data quality issues, and 4 of those are detectable by us, so we can now detect $$\frac{2}{3}$$ data quality issues in this system. 
 
