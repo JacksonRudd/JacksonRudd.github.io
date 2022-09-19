@@ -229,7 +229,7 @@ As we gather more expectations about the real world, we can add constraints, whi
 
 ## Summary
 
-We looked at discrete systems and found that the *only* way to detect data quality was by feeding our real world assumptions onto the data. A data quality alert is best when it simply takes all of the real world constraints in our system, and checks to see if any has been violated. We derived a surprisingly simple equation for data quality coverage in discrete systems so that we know longer have to count truth tables. In accordance with our intuition, as the number of plausible states decreases, the coverage of data quality increases. 
+We looked at discrete systems and found that the *only* way to detect data quality was by feeding our real world assumptions onto the data. A data quality alert is best when it simply takes all of the real world constraints in our system, and checks to see if any has been violated. We derived a surprisingly simple equation for data quality coverage in discrete systems so that we no longer have to count truth tables. In accordance with our intuition, as the number of plausible states decreases, the coverage of data quality increases. 
 
 This theory is simple and intuitive. It suggests a business process where real world constraints are systematically gathered in an organization and turned into a *maximal alert*. 
 
