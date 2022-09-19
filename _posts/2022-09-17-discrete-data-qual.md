@@ -4,7 +4,7 @@ Anyone who works in data will eventually develop trust issues. Data is often dif
 
 If data are the eyes of an organization then poor data quality is the organizational equivalent of drunk goggles. 
 
-But how can an organization discover if data is high quality or not? In this post I seek to answer this question for discrete data systems. The theory is simple and intuitive, and in my opinion adds some rigour to instincts that all data professionals develop eventually. The ideas from these discrete systems will give good insight into the continuos theory of data quality (which will be covered in a future post). 
+But how can an organization discover if data is high quality or not? In this post I seek to answer this question for discrete data systems. The theory is simple and intuitive, and in my opinion adds some rigour to instincts that all data professionals develop eventually. The ideas from these discrete systems will give good insight into the continuous theory of data quality (which will be covered in a future post). 
 
 
 
@@ -212,7 +212,7 @@ Looking at the coverage equation  $$\frac{2^N- \lvert P \rvert}{  2^N - 1}$$ we 
 
 *In non-trivial discrete data systems there will always be quality issues that are undetectable.*
 
-Sadly, this also carries over to the continuos case, which we will cover in the future. 
+Sadly, this also carries over to the continuous case, which we will cover in the future. 
 
 
 As we gather more expectations about the real world, we can add constraints, which will lower $$\lvert P \rvert$$, and raise the data coverage. 
