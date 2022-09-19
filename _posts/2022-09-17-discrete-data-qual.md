@@ -206,9 +206,11 @@ Fraction of Quality Issues Detected = $$\frac{2^N- \lvert P \rvert}{  2^N - 1} =
 
 ## Data Issues are Detectable, Data Correctness is Not
 
-Looking at the coverage equation  $$\frac{2^N- \lvert P \rvert}{  2^N - 1}$$ we see that we get 100% coverage only in the case where  $$\lvert P \rvert = 1$$. Of In the case that $$\lvert P \rvert = 1$$, there was no reason to gather any data in the first place, since $T_1.. T_n$ is fully determined by the constraints. Therefore we can say the following: 
+Looking at the coverage equation  $$\frac{2^N- \lvert P \rvert}{  2^N - 1}$$ we see that we get 100% coverage only in the case where  $$\lvert P \rvert = 1$$, which is a trivial case. In the case that $$\lvert P \rvert = 1$$, there was no reason to gather any data in the first place, since $T_1.. T_n$ is fully determined by the constraints. Therefore we can say the following: 
 
 *In non-trivial data systems there will always be quality issues that are undetectable.*
+
+As we gather more expectations about the real world, we can add constraints, which will lower $$\lvert P \rvert$$, and raise the data coverage. 
 
 Sadly, this also carries over to the continuos case, which we will cover in the future. 
 
