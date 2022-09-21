@@ -21,7 +21,7 @@ I'll post when I beat a person or a computer above 1600 level. Pablo is my favor
 
 
 
-## Win as white against Pablo after he blunders 9/20/2022
+## Win as white against Pablo 9/20/2022
 
 ![Alt Text](/games/board.gif)
 
