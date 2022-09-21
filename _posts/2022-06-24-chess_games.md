@@ -3,10 +3,10 @@
 I'm pretty new to chess, just started playing a lot this year. I have some background in tactics from the 'chess tactics' app, that my dad and I were very competitive with, but still have a lot to learn. 
 
 I'll post when I beat a person or a computer above 1600 level. Pablo is my favorite computer to play against atm. 
-## First Win Against Pablo 6/24
+## First Win Against Pablo as Black 6/24
 ![Alt Text](/games/first-time-beating-pablo.gif)
 
-## Won Again 6/24
+## Won Again as Black 6/24
 
 ![Alt Text](/games/second-pablo.gif)
 
