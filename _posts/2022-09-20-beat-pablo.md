@@ -1,4 +1,4 @@
-# Beat Pablo
+# Won Against Pablo as White
 
 ![Alt Text](/games/board.gif)
 
