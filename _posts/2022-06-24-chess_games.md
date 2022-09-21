@@ -12,7 +12,7 @@ I'll post when I beat a person or a computer above 1600 level. Pablo is my favor
 
 
 
-## Win as Black against Pablo 8/31/2022
+## Interesting Win as Black against Pablo 8/31/2022
 ![Alt Text](/games/beat_pablo_black.gif)
 
 
