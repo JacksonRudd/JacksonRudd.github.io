@@ -1,4 +1,4 @@
-#Beating Pablo
+# Beat Pablo
 
 ![Alt Text](/games/board.gif)
 
