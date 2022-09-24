@@ -23,7 +23,7 @@ We can use an insight about the problem to simplify the problem statement.
 
 A *projectile point* is any point where the engine is turned off for the rest of the path. In mathematical terms: 
 
-**Definition: *Projectile Point***
+**Definition:** *Projectile Point*
 
 
 Any time $$t\in [0,T]$$ on a rocket path where $$s>t \implies F(s) = 0$$. 
