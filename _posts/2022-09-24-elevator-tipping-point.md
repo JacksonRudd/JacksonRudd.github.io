@@ -177,13 +177,10 @@ solving for $$a$$ with the quadratic equation we have:
 
 $$a=\frac{gH}{T^2g/2-H}$$. 
 
-## Plotting the Simply Paths. 
+## Plotting the Simple Paths. 
 
 <iframe src="https://www.desmos.com/calculator/y1dhvwiupd?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 
-
-
-# Tipping Point
 
 The above Diagram shows the acceleration of a simple path in red, and the time of the projectile point in $$t$$. In Black is the tipping point, where the acceleration of simple optimal paths go to infinity, and therefore the projectile point time becomes 0. 
 
