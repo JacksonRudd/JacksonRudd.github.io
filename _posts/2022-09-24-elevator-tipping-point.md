@@ -15,7 +15,8 @@ In Summary:
 
 Choose an optimal $$F(t)>0$$ where $$\int Fds$$ is minimized given the rocket travels to height $$H$$ in time $$T$$ with weight $$m$$ under gravity $$g$$. 
 
-As we increase $$H$$, and therefore give the rocket more work to do, we will see the rocket's behavior hit a tipping point when $$H \geq gT^2/2$$.
+As we increase $$H$$, and therefore give the rocket more work to do, we will see the rocket's behavior hit a tipping point when $$H \geq gT^2/2$$. It is interesting to note, that  $$H= gT^2/2$$ when $$T$$ is the time it would take for an object to fall from height $$H$$, in this way this is a very natural dimensionless tipping point. 
+
 
 # The Projectile Point
 
@@ -134,7 +135,7 @@ So,
 
 $$W_t=v-g(T-t), W_v=g(v-g(T-t))$$
 
-These constraints are redundant, and setting either to 0 will yield: 
+These constraints are redundant, and setting either to $$0$$ will yield: 
 
 $$v_p=g(T-t)$$. 
 
@@ -148,9 +149,10 @@ $$H< gT^2/2$$.
 
 This is worth reflecting on, we will be able to hit minimum energy $$W_{min}=mgH$$ as long as $$H< gT^2/2$$. 
 
-When $$H$$ gets too big, we will no longer be able to achieve minimum energy. But for now we will assume that $$W_{min}=mgH$$, and compute some optimal paths. 
+When $$H$$ gets too big, we will no longer be able to achieve minimum energy. But for now we will assume that  $$H< gT^2/2$$, and compute some optimal paths. 
 
-It is interesting to note, that  $$H= gT^2/2$$ when $$T$$ is the time it would take for an object to fall from height $$H$$, in this way this is a very natural dimensionless tipping point. 
+I promised in the intro that $$H\geq gT^2/2$$ would be a tipping point for this system. Now we are starting to understand why, this is the exact point where paths can achieve minimum energy while satisfying the constraints. 
+
 
 ## Simplest Path
 Since $$v_p=g(T-t_p)$$, we have $$t=\frac{gT}{a+g}$$. 
