@@ -223,8 +223,13 @@ Proof: The impulse path is the path of an projectile, and therefore work is cons
 The impulse path itself is therefore a minimizer. 
 
 ## Work of the optimal constrainted path. 
-Calculating work at $$t=0, we get$$
+Calculating work at $$t=0, we get
+
 $$W(v_i(0), h_i(0), t_i(0))=mv_i(0)^2/2 = \frac{m}{2}(\frac{H}{T}+\frac{gT}{2})^2$$. 
+
+Rearranging we get: 
+
+$W=\frac{m}{2}\left(\frac{H+\frac{gT^{2}}{2}}{T}\right)^{2}$
 
 
 
