@@ -47,7 +47,6 @@ $$W(v_p,h_p,t_p) = m\frac{v_p^2}{2} + mgh_p$$.
 
 Since we can calculate total work on the path by using projectile points, we no longer need to consider $$F$$. 
 
-# Deriving Constraints
 
 ## The Crossing Constraint
 
