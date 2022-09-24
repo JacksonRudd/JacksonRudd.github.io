@@ -120,7 +120,7 @@ The impulse path is therefore a valid path where all of the acceleration happens
 
 Remember, only the projectile points of a path are subject to these constraints. 
 
-# Unconstrained Elevator Paths
+# Unconstrained Rocket Paths
 
 We don't yet know if we will ever hit the minimum energy, which we know from basic physics is $$W_{min}=mgH$$. 
 
@@ -188,7 +188,7 @@ The above Diagram shows the acceleration of a simple path in red, and the time o
 
 We have now found and understood optimal paths that his minimum work, we now assume that  $$H< gT^2/2$$, and find optimal paths given the constraint.
 
-# Constrained Elevator Paths
+# Constrained Rocket Paths
 
 We now assume $$H>gT^2/2$$. 
 
@@ -228,7 +228,7 @@ $$W(v_i(0), h_i(0), t_i(0))=mv_i(0)^2/2 = \frac{m}{2}(\frac{H}{T}+\frac{gT}{2})^
 
 Rearranging we get: 
 
-$W=\frac{m}{2}\left(\frac{H+\frac{gT^{2}}{2}}{T}\right)^{2}$
+$$W=\frac{m}{2}\left(\frac{H+\frac{gT^{2}}{2}}{T}\right)^{2}$$
 
 
 
