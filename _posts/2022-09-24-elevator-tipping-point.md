@@ -177,7 +177,9 @@ solving for $$a$$ with the quadratic equation we have:
 
 $$a=\frac{gH}{T^2g/2-H}$$. 
 
-## Plotting the Simple Paths. 
+Remember, these paths will accelerate at acceleration $$a$$, until reaching time $t$.
+
+## Plotting the Unconstrained Paths. 
 
 <iframe src="https://www.desmos.com/calculator/y1dhvwiupd?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 
@@ -234,3 +236,5 @@ $W=\frac{m}{2}\left(\frac{H+\frac{gT^{2}}{2}}{T}\right)^{2}$
 
 
 <iframe src="https://www.desmos.com/calculator/2moewqco59?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+Here we have work plotted as a function of $T$. As we shrink $T$ down we are asking the system to do more work, and at our tipping point we see the system starts consuming much more energy. 
