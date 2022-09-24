@@ -93,7 +93,7 @@ $$v_pt_p - \frac{gt_p^2}{2} \geq h_p$$
 
 Taking our last two constraints, solving for $$h$$ and canceling we get: 
 
-**Definition: *Impulse Constraint***
+**Definition:** *Impulse Constraint*
 
 $$H+\frac{T^2}{2}-gTt_p \leq Tv_p$$
 
@@ -177,7 +177,7 @@ solving for $$a$$ with the quadratic equation we have:
 
 $$a=\frac{gH}{T^2g/2-H}$$. 
 
-Remember, these paths will accelerate at acceleration $$a$$, until reaching time $t$.
+Remember, these paths will accelerate at acceleration $$a$$, until reaching time $$t$$.
 
 ## Plotting the Unconstrained Paths. 
 
@@ -222,7 +222,7 @@ Proof: The impulse path is the path of an projectile, and therefore work is cons
 The impulse path itself is therefore a minimizer. 
 
 ## Work of the optimal constrainted path. 
-Calculating work at $$t=0, we get
+Calculating work at $$t=0$$, we get
 
 $$W(v_i(0), h_i(0), t_i(0))=mv_i(0)^2/2 = \frac{m}{2}(\frac{H}{T}+\frac{gT}{2})^2$$. 
 
@@ -237,4 +237,4 @@ $$W=\frac{m}{2}\left(\frac{H+\frac{gT^{2}}{2}}{T}\right)^{2}$$
 
 <iframe src="https://www.desmos.com/calculator/2moewqco59?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 
-Here we have work plotted as a function of $T$. As we shrink $T$ down we are asking the system to do more work, and at our tipping point we see the system starts consuming much more energy. 
+Here we have work plotted as a function of $$T$$. As we shrink $$T$$ down we are asking the system to do more work, and at our tipping point we see the system starts consuming much more energy. 
