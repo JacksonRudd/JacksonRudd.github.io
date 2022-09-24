@@ -54,7 +54,7 @@ What can we say about these projectile points? Given a projectile point $$(v_p,h
 
 $$H-h_p > v_p(T-t_p) - \frac{g(T-t_p)^2}{2}$$
 
-Since we are interested in optimal paths which conserve fuel, we can assume equality:
+Since we are interested in optimal paths which conserve fuel, we can assume equality. We have just derived our first constraint:
 
 **Definition:** *The Crossing Constraint*
 
