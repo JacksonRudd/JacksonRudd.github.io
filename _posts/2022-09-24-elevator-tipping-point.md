@@ -1,4 +1,4 @@
-# Stress
+# Tipping Point in Optimal Rocket Paths
 
 Often times the best way to understand a system is to watch it break down. Aspects of a system's internal logic that might be invisible to us under normal conditions can become apparent when we put that system under stress. 
 
