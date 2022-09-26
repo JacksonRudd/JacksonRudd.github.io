@@ -144,7 +144,9 @@ By feeding our data $$X_i$$ into our real world constraints $$g_k$$ we can detec
  
 *Proposition:* Define $$a(X_1... X_n) = \text{not } g(X_1... X_n)$$ for some constraint $$g$$, this is a trustworthy alert.
 
-proof $$a(X_1...X_n) = g(X_1...X_n) \neq True \implies g(X_1...X_N) \neq g(T_1...T_N) \implies  (X_1...X_N) \neq (T_1...T_N) \implies $$ data quality issue. 
+proof: 
+$$a(X_1...X_n) =True$$ means that $$ g(X_1...X_N) = False$$. So $$ g(X_1...X_N)  \neq g(T_1...T_N)$$. This implies $$(X_1...X_N) \neq (T_1...T_N)$$
+
 
 ...
 
