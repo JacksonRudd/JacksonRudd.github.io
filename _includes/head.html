@@ -8,13 +8,9 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
+  <meta property="og:image" content="./images/candle.png">
 
-  {% for post in site.categories.blog %}
-  <div>
-      <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
-      <a href="{{ post.url }}" >{{ post.title }}</a>
-  </div>
-{% endfor %}
+
   <!-- highlight.js support -->
   <link rel="stylesheet" href="/js/highlightjs/styles/github.css">
   <link rel="stylesheet" href="/js/highlightjs/styles/ssms.css" />
