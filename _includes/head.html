@@ -9,6 +9,11 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
 
+  {% if page.image %}
+  <meta property="og:image" content="path/to/post/image.jpg">
+  {% else %}
+    <meta property="og:image" content="path/to/page/image.jpg">
+  {% endif %}
   <!-- highlight.js support -->
   <link rel="stylesheet" href="/js/highlightjs/styles/github.css">
   <link rel="stylesheet" href="/js/highlightjs/styles/ssms.css" />
